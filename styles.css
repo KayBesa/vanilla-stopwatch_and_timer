@@ -1,0 +1,61 @@
+/*
+Stylesheet for my simple reactive stopwatch clock using javascript
+Author: Kasonde Besa
+April 16th, 2022
+
+*/
+
+
+/*
+Background color of entire page
+*/
+
+body {
+    background: orangered;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*
+Styling for div elment
+*/
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    height: 800px;
+}
+
+
+/*
+Styling for buttons and timer
+*/
+
+#seconds,
+#milliseconds {
+    font-size: 2em;
+}
+
+button {
+    background-color: orangered;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: white;
+    color: white;
+    font-size: x-large;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: orangered;
+    transition: 300ms;
+}
